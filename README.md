@@ -13,7 +13,7 @@
 <p align="center">
  <img src="https://img.shields.io/badge/React-v18.2.0-9cf?logo=React" alt="React" />
   <img src="https://img.shields.io/badge/FastAPI-v0.115.9-green?logo=Fastapi"  alt="FastAPI" />
-  <img src="https://img.shields.io/badge/FastAPI-v0.115.9-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/FastAPI-v0.115.9-009688?logo=fastapi&logoColor=green" alt="FastAPI" />
   <img src="https://img.shields.io/badge/PostgreSQL-v13.10-blue?logo=Postgresql" alt="PostgreSQL"/>
 </p>
 <p align="center">
