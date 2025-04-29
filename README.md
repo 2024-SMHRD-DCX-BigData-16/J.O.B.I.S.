@@ -11,8 +11,19 @@
 - Vector DB(Chroma)와 Embedding을 통한 유사도 검색으로 면접 실행 및 회사, 멘토 추천 
 ## ✍🏻 프로젝트 소개
 <p align="center">
- <img src="https://img.shields.io/badge/react-v18.2.0-9cf?logo=react" alt="react" />
-  <img src="https://img.shields.io/badge/FastAPI-v0.115.9-green?logo=fastapi"  alt="FastAPI" />
-  <img src="https://img.shields.io/badge/postgreSQL-v13.10-blue?logo=postgresql" alt="postgreSQL"/>
+ <img src="https://img.shields.io/badge/React-v18.2.0-9cf?logo=React" alt="React" />
+  <img src="https://img.shields.io/badge/FastAPI-v0.115.9-green?logo=Fastapi"  alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-v13.10-blue?logo=Postgresql" alt="PostgreSQL"/>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/react-v18.2.0-61DAFB?logo=react&logoColor=black" alt="react" />
+  <img src="https://img.shields.io/badge/TypeScript-v5.3.3-3178C6?logo=typescript&logoColor=white" alt="typescript" />
+  <img src="https://img.shields.io/badge/SCSS-v1.62.1-CC6699?logo=sass&logoColor=white" alt="scss" />
+  <img src="https://img.shields.io/badge/FastAPI-v0.115.9-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/postgreSQL-v13.10-336791?logo=postgresql&logoColor=white" alt="postgreSQL"/>
+  <img src="https://img.shields.io/badge/LangChain-⚡-green?logo=python" alt="langchain"/>
+  <img src="https://img.shields.io/badge/Chroma-VectorDB-yellow?logo=databricks" alt="chroma"/>
+  <img src="https://img.shields.io/badge/OpenAI-API-black?logo=openai&logoColor=white" alt="openai"/>
+</p>
+
 
