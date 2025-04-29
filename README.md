@@ -10,5 +10,7 @@
 - 키워드를 통한 자기소개서 생성 및 미리 작성한 자기소개서 피드백
 - Vector DB(Chroma)와 Embedding을 통한 유사도 검색으로 면접 실행 및 회사, 멘토 추천 
 ## ✍🏻 프로젝트 소개
-
+ <img src="https://img.shields.io/badge/react-v18.3.1-9cf?logo=react" alt="react" />
+  <img src="https://img.shields.io/badge/spring_boot-v3.2.5-green?logo=springboot"  alt="FastAPI" />
+  <img src="https://img.shields.io/badge/mysql-v8.0.35-blue?logo=mysql" alt="postgreSQL"/>
 
