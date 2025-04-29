@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/LangChain-⚡-green?logo=python" alt="langchain"/>
   <img src="https://img.shields.io/badge/Chroma-VectorDB-yellow?logo=databricks" alt="chroma"/>
   <img src="https://img.shields.io/badge/OpenAI-API-black?logo=openai&logoColor=white" alt="openai"/>
-  <a href="https://github.com/jobis-project/J.O.B.I.S">
+  <a>
     <img width="600" src="https://github.com/user-attachments/assets/8f830045-62df-4a3f-a1c5-f60534805662" alt="JOBIS 메인화면" />
   </a>
 </p>
