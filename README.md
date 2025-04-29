@@ -11,6 +11,6 @@
 - Vector DB(Chroma)와 Embedding을 통한 유사도 검색으로 면접 실행 및 회사, 멘토 추천 
 ## ✍🏻 프로젝트 소개
  <img src="https://img.shields.io/badge/react-v18.3.1-9cf?logo=react" alt="react" />
-  <img src="https://img.shields.io/badge/FastAPI-v3.2.5-green?logo=springboot"  alt="FastAPI" />
-  <img src="https://img.shields.io/badge/postgreSQL-v8.0.35-blue?logo=mysql" alt="postgreSQL"/>
+  <img src="https://img.shields.io/badge/FastAPI-v3.2.5-green?logo=fastapi"  alt="FastAPI" />
+  <img src="https://img.shields.io/badge/postgreSQL-v8.0.35-blue?logo=postgresql" alt="postgreSQL"/>
 
