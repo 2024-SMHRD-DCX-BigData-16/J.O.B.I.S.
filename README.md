@@ -22,8 +22,8 @@
   <img src="https://img.shields.io/badge/Chroma-VectorDB-yellow?logo=databricks" alt="chroma"/>
   <img src="https://img.shields.io/badge/OpenAI-API-black?logo=openai&logoColor=white" alt="openai"/>
 </p>
-<a href="https://github.com/너희-레포지토리링크">
-  <img width="600" src="https://github.com/user-attachments/assets/253edd78-ab41-4670-9228-683c55d5affc" alt="JOBIS 홈화면 이미지" />
+<a align="center">
+  ![image](https://github.com/user-attachments/assets/8f830045-62df-4a3f-a1c5-f60534805662)
 </a>
 
-![image](https://github.com/user-attachments/assets/8f830045-62df-4a3f-a1c5-f60534805662)
+
