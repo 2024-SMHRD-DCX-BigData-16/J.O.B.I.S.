@@ -26,4 +26,8 @@
   </a>
 </p>
 
+<a herf="https://www.figma.com/design/PkABMn1ZnHp2tuFcA8yRcM/-%EA%B8%B0%ED%9A%8D-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF-UX-UI-Wireframe-Template-KOR--UX-UI--Community-?node-id=0-1&p=f">
+  화면설계서
+</a>
+
 
