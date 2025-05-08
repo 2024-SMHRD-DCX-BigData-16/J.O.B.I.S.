@@ -134,7 +134,30 @@
 - 대학 및 교육 기관과의 파트너십 확대 <br>
 ---
 
-### 📄[화면설계서 링크](https://www.figma.com/design/PkABMn1ZnHp2tuFcA8yRcM/-%EA%B8%B0%ED%9A%8D-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF-UX-UI-Wireframe-Template-KOR--UX-UI--Community-?node-id=0-1&p=f)
+## 9. 화면 구성
+![Image](https://github.com/user-attachments/assets/3dbaabb1-d75b-431f-bd48-5bdfc2013f99)
+![Image](https://github.com/user-attachments/assets/88234b55-e8b9-4654-a9c7-152240c129f1)
+![Image](https://github.com/user-attachments/assets/6aea6ef1-dcfe-40d4-b715-cca10deeeb9b)
+![Image](https://github.com/user-attachments/assets/d4ab22cf-79bd-4a07-9369-a240d189560e)
+![Image](https://github.com/user-attachments/assets/c8040d31-8501-42c9-8a74-ece37bdd31e4)
+![Image](https://github.com/user-attachments/assets/56d378ff-c5dc-4ef3-8fc8-99e9ccbd7e9a)
+![Image](https://github.com/user-attachments/assets/8fc450bc-d5ef-4382-91d6-4454662854c8)
+![Image](https://github.com/user-attachments/assets/31f084cf-4cf9-469e-a81b-a6e95d0d38df)
+![Image](https://github.com/user-attachments/assets/382df42a-8e9d-42d1-87e8-d0102e738eb3)
+![Image](https://github.com/user-attachments/assets/61b61c9f-7070-4a01-ba13-75e2128035ab)
+![Image](https://github.com/user-attachments/assets/7012ff5d-76c0-4cbe-89f8-97ab34887ff1)
+![Image](https://github.com/user-attachments/assets/06b5fdbc-426b-43df-bc9b-a32fc0f1e085)
+![Image](https://github.com/user-attachments/assets/8992cc64-4369-4467-8483-58d10b249c63)
+![Image](https://github.com/user-attachments/assets/70ed4f0b-7eec-4e0d-a8d1-dad8abf7c6c6)
+![Image](https://github.com/user-attachments/assets/37b618e3-eeda-4f12-9289-c4736d001607)
+![Image](https://github.com/user-attachments/assets/f7c69bff-db15-499b-9128-156451273ac8)
+![Image](https://github.com/user-attachments/assets/d6c9b54c-419c-4cf2-a06f-5d265105dcca)
+![Image](https://github.com/user-attachments/assets/c650ee66-ec7b-4f1a-8bcf-5d075b37ac4f)
+![Image](https://github.com/user-attachments/assets/42454b83-6a64-4102-b5a3-7a2ed0a5c1e3)
+![Image](https://github.com/user-attachments/assets/756fd06a-28a6-4569-9573-8cda62204743)
 
+📄[화면설계서 링크](https://www.figma.com/design/PkABMn1ZnHp2tuFcA8yRcM/-%EA%B8%B0%ED%9A%8D-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF-UX-UI-Wireframe-Template-KOR--UX-UI--Community-?node-id=0-1&p=f)
+---
+## 10. 트러블 슈팅
 
 
