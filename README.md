@@ -133,8 +133,10 @@
 - 취업 교육 프로그램과의 통합 서비스 개발 <br>
 - 대학 및 교육 기관과의 파트너십 확대 <br>
 ---
+## 9. 트러블 슈팅
 
-## 9. 화면 구성
+---
+## 10. 화면 구성
 ![Image](https://github.com/user-attachments/assets/3dbaabb1-d75b-431f-bd48-5bdfc2013f99)
 ![Image](https://github.com/user-attachments/assets/88234b55-e8b9-4654-a9c7-152240c129f1)
 ![Image](https://github.com/user-attachments/assets/6aea6ef1-dcfe-40d4-b715-cca10deeeb9b)
@@ -158,6 +160,5 @@
 
 📄[화면설계서 링크](https://www.figma.com/design/PkABMn1ZnHp2tuFcA8yRcM/-%EA%B8%B0%ED%9A%8D-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF-UX-UI-Wireframe-Template-KOR--UX-UI--Community-?node-id=0-1&p=f)
 ---
-## 10. 트러블 슈팅
 
 
