@@ -22,6 +22,8 @@ async def generate_tts(request: Request):
     # 고유한 mp3 파일명들 생성
     filename = f"tts_{uuid.uuid4().hex}.mp3"
 
+    os.makedirs("audio", exist_ok=True)
+    
     # 저장할 파일의 전체 경로 지정 (audio 폴더 하위에 저장)
     filepath = f"audio/{filename}"
 

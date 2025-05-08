@@ -17,21 +17,18 @@ const InterviewFlowAPI: InterviewFlowAPIType = async (
   selectedMode,
   abortController
 ) => {
-  return await fetch(
-    `${process.env.REACT_APP_DOMAIN}/interview/${selectedMode}`,
-    {
-      method: `POST`,
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name: name,
-        job: job,
-        messages: updatedMessages,
-      }),
-      signal: abortController.current?.signal,
-    }
-  );
+  return await fetch(`/interview/${selectedMode}`, {
+    method: `POST`,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      name: name,
+      job: job,
+      messages: updatedMessages,
+    }),
+    signal: abortController.current?.signal,
+  });
 };
 
 export default InterviewFlowAPI;

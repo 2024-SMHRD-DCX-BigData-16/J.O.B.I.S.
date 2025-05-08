@@ -148,7 +148,7 @@ const Interview: FC = () => {
   };
 
   // ========== startInterviewSession 함수: sessionId 반환 ==========
-  const startInterviewSession = async (): Promise<number | null> => {
+  const startInterviewSession: () => Promise<number | null> = async () => {
     const storedMemId = localStorage.getItem("mem_id") || userInfo?.id;
     if (!storedMemId) {
       console.error("❌ 사용자 ID를 찾을 수 없습니다.");
@@ -255,6 +255,7 @@ const Interview: FC = () => {
         }),
       });
       const interviewData = await interviewRes.json();
+      console.log("interviewData 응답:", interviewData);
       const firstQuestion = interviewData.reply;
 
       setMessages([
@@ -268,6 +269,7 @@ const Interview: FC = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: firstQuestion }),
       });
+      console.log("TTS용 질문 내용:", firstQuestion);
       const ttsData = await ttsRes.json();
       const audio = new Audio(`${API_BASE_URL}${ttsData.audio_url}`);
       await audio.play();
@@ -499,7 +501,7 @@ const Interview: FC = () => {
                   <img
                     alt="로딩 스피너"
                     width="30px"
-                    src={`${process.env.PUBLIC_URL}/assets/Spinner2.gif`}
+                    src={`/assets/Spinner2.gif`}
                   />
                 </div>
               )}

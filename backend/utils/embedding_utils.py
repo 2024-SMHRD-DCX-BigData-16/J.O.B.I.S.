@@ -1,8 +1,13 @@
 from langchain_openai import OpenAIEmbeddings
+from dotenv import load_dotenv
+import os
 import numpy as np
 
+load_dotenv()
+openai_key = os.getenv("OPENAI_API_KEY")
+
 # OpenAI Embedding 객체
-embedding_model = OpenAIEmbeddings()
+embedding_model = OpenAIEmbeddings(openai_api_key=openai_key)
 
 # 단일 텍스트 임베딩
 def get_embedding(text: str) -> list:

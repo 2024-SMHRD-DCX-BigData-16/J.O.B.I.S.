@@ -1,5 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
-import { ReactMic } from "react-mic";
+import React, { useEffect } from "react";
 import axios from "axios";
 import API_BASE_URL from "../constants/api";
 
@@ -15,42 +14,57 @@ const STTRecorder: React.FC<STTRecorderProps> = ({
   useEffect(() => {
     if (!trigger) return;
 
-    const startRecording = async () => {
-      try {
-        const stream = await navigator.mediaDevices.getUserMedia({
-          audio: true,
-        });
-        const mediaRecorder = new MediaRecorder(stream);
-        const chunks: Blob[] = [];
+    const startRecording = () => {
+      navigator.mediaDevices
+        .getUserMedia({
+          audio: {
+            sampleRate: 16000,
+            channelCount: 1,
+            echoCancellation: true,
+            noiseSuppression: true,
+            autoGainControl: true,
+          },
+        })
+        .then((stream) => {
+          const mediaRecorder = new MediaRecorder(stream, {
+            mimeType: "audio/webm;codecs=opus",
+            audioBitsPerSecond: 128000,
+          });
 
-        mediaRecorder.ondataavailable = (e) => {
-          if (e.data.size > 0) chunks.push(e.data);
-        };
+          const chunks: Blob[] = [];
 
-        mediaRecorder.onstop = async () => {
-          const blob = new Blob(chunks, { type: "audio/wav" });
-          const formData = new FormData();
-          formData.append("audio", blob, "recording.wav");
+          mediaRecorder.ondataavailable = (event) => {
+            if (event.data.size > 0) {
+              chunks.push(event.data);
+              console.log("녹음 데이터 수신:", event.data);
+            }
+          };
 
-          try {
-            const response = await fetch(`${API_BASE_URL}/stt`, {
+          mediaRecorder.onstop = () => {
+            const blob = new Blob(chunks, { type: "audio/webm" });
+            const formData = new FormData();
+            formData.append("audio", blob, "recording.webm");
+
+            // 백엔드로 전송
+            fetch(`${API_BASE_URL}/stt`, {
               method: "POST",
               body: formData,
-            });
-            const data = await response.json();
-            console.log("Whisper 응답:", data.text);
-            onTranscribed(data.text);
-          } catch (error) {
-            console.error("STT 요청 실패:", error);
-          }
-        };
+            })
+              .then((res) => res.json())
+              .then((data) => console.log("STT 응답:", data))
+              .catch((err) => console.error("STT 요청 실패:", err));
+          };
 
-        // 녹음 시작 후 일정 시간 뒤 자동 종료
-        mediaRecorder.start();
-        setTimeout(() => mediaRecorder.stop(), 30000); // 30초간 녹음
-      } catch (error) {
-        console.log("마이크 접근 실패:", error);
-      }
+          mediaRecorder.start();
+          console.log("녹음 시작");
+
+          // 10초 후 자동 종료
+          setTimeout(() => {
+            mediaRecorder.stop();
+            console.log("녹음 종료");
+          }, 10000);
+        })
+        .catch((err) => console.error("마이크 접근 실패:", err));
     };
 
     startRecording();
