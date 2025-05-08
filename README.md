@@ -87,7 +87,7 @@
 
 **구성도**
 **구성도**<br>
-<img src="![Image](https://github.com/user-attachments/assets/ddd73dc8-6748-4c6d-bac6-f457117c0e8e)" width="800" height="400"/>
+![Image](https://github.com/user-attachments/assets/ddd73dc8-6748-4c6d-bac6-f457117c0e8e)
 ```md
 [사용자] → [웹 브라우저] → [Spring Boot 서버] → [MySQL DB]
 ```
