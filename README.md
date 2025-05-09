@@ -4,7 +4,7 @@
 
 
 ## :star2: J.O.B.I.S :star2:
-> :star: OpenAI API와LangChain 모델을 활용한 맞춤형 취업준비 서비스<br>
+> :star: LLM과 LangChain 모델을 활용한 맞춤형 취업준비 서비스<br>
 :star: 자기소개서 및 이력서, 포트폴리오를 첨부한 파일을 토대로 면접관 페르소나(유형)을 선택하여 모의면접 진행 및 피드백 제공<br>
 :star: 키워드를 통한 자기소개서 생성 및 미리 작성한 자기소개서 피드백<br>
 :star: Vector DB(Chroma)와 Embedding을 통한 유사도 검색으로 면접 실행 및 회사, 멘토 추천 <br>
@@ -25,6 +25,9 @@
   </a>
 </p>
 
+---
+## 🎬 시연 영상
+👉 [JOBIS 프로젝트 시연 영상 (YouTube)](https://www.youtube.com/watch?v=5hazrcHVnf8)
 ---
 ### 1. 프로젝트 개요 📄
 #### 주제 : OpenAI와 Langchain 모델을 활용한 맞춤형 취업 지원 서비스 :thumbsup:
