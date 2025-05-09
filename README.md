@@ -26,9 +26,8 @@
 </p>
 
 ---
-## 🎬 시연 영상
-👉 [JOBIS 프로젝트 시연 영상 (YouTube)](https://www.youtube.com/watch?v=5hazrcHVnf8)
----
+## 🎬 시연 영상 👉 [JOBIS 프로젝트 시연 영상 (YouTube)](https://www.youtube.com/watch?v=5hazrcHVnf8)
+
 ### 1. 프로젝트 개요 📄
 #### 주제 : OpenAI와 Langchain 모델을 활용한 맞춤형 취업 지원 서비스 :thumbsup:
 
