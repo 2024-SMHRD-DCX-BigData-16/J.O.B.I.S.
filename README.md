@@ -28,7 +28,7 @@
 ---
 ## 🎬 시연 영상 👉 [JOBIS 프로젝트 시연 영상 (YouTube)](https://www.youtube.com/watch?v=5hazrcHVnf8)
 
-### 1. 프로젝트 개요 📄
+## 1. 프로젝트 개요 📄
 #### 주제 : OpenAI와 Langchain 모델을 활용한 맞춤형 취업 지원 서비스 :thumbsup:
 
 
@@ -45,10 +45,11 @@
 - 자신에게 맞는 적절한 멘토 검색 기능
   
 ---
-### 2. 프로젝트 기간 🕛
+## 2. 프로젝트 기간 🕛
 
 2025-03-17 ~2025-05-12
 
+---
 ## 3. 주요 기능 :computer:
 
 :floppy_disk: 회원가입 및 로그인 <br>
@@ -58,7 +59,7 @@
 
 ---
 
-### 4. 개발환경  :open_file_folder:
+## 4. 개발환경  :open_file_folder:
 ### Frontend
 <p align="left">
  <img src="https://img.shields.io/badge/React-v18.2.0-9cf?logo=React" alt="React" />
@@ -138,6 +139,12 @@
 
 ---
 ## 9. 트러블 슈팅 :boom:
+
+:warning: AI면접에서 STT를 구현하는 과정 중 실제 파일을 생성되나, 음질의 문제로 텍스트 추출 실패함 :arrow_right: 사용한 전자기기의 마이크 문제 및 무료 모델의 한계 확인 후 추후 유료 모델 사용 고려 <br>
+:warning: vectorDB를 저장하는 과정에서 데이터는 넘어오나 실제로 화면에 출력되지 않는 현상이 발견됨 :arrow_right: 다른 vectorDB인 ChromaDB 사용, 멘토님과의 협업 및 강의 후 해결 <br>
+:warning: AI자기소개서 작성 시 이미지 기반의 pdf파일의 텍스트 추출 실패함 :arrow_right: PymuPDF, OCR, Tesseract를 활용하여 텍스트 기반 추출 및 이미지기반 pdf파일 텍스트 추출 해결
+:warning: 사용자 이력서 등 첨부파일 저장하는 과정에서 파일명이 자동으로 바뀌는 현상이 발견됨 :arrow_right: DB에 파일명을 저장할 수 있는 컬럼을 추가 후 저장 <br>
+
 
 ---
 ## 10. 화면 구성 :tv:
