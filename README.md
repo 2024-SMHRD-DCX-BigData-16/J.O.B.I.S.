@@ -86,10 +86,15 @@
 
 ---
 
-## 5. 시스템 아키텍처 :black_nib:
+## [5. 시스템 아키텍처 링크 바로가기 :black_nib:](https://link.excalidraw.com/readonly/ywFsggawosP51BAADxk5)
 
 **구성도**
 **구성도**<br>
+![image](https://github.com/user-attachments/assets/4523e521-0d27-4dea-bfbe-ef99a380403e)
+![image](https://github.com/user-attachments/assets/02c47277-5938-4e59-b6ee-b5fedef960d2)
+![image](https://github.com/user-attachments/assets/71e6423b-4ee9-402f-a442-808f203a38b8)
+![image](https://github.com/user-attachments/assets/903463d8-8f3c-4197-81f0-1a7a0925a9f4)
+## 아키텍처 링크를 통해 자세하게 확인 가능합니다.
 ![Image](https://github.com/user-attachments/assets/ddd73dc8-6748-4c6d-bac6-f457117c0e8e)
 ```md
 [사용자] → [웹 브라우저] → [FastAPI] → [PostgreDB]
@@ -138,7 +143,7 @@
 :thumbsup: 대학 및 교육 기관과의 파트너십 확대 <br>
 
 ---
-## 9. 트러블 슈팅 :boom:
+## 9. Troubleshooting :boom:
 
 :warning: AI면접에서 STT를 구현하는 과정 중 실제 파일을 생성되나, 음질의 문제로 텍스트 추출 실패함 :arrow_right: 사용한 전자기기의 마이크 문제 및 무료 모델의 한계 확인 후 추후 유료 모델 사용 고려 <br>
 :warning: vectorDB를 저장하는 과정에서 데이터는 넘어오나 실제로 화면에 출력되지 않는 현상이 발견됨 :arrow_right: 다른 vectorDB인 ChromaDB 사용, 멘토님과의 협업 및 강의 후 해결 <br>
@@ -147,7 +152,7 @@
 
 
 ---
-## 10. 화면 구성 :tv:
+## 10. 화면 구성 및 :link: [화면설계서 링크](https://www.figma.com/design/PkABMn1ZnHp2tuFcA8yRcM/-%EA%B8%B0%ED%9A%8D-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF-UX-UI-Wireframe-Template-KOR--UX-UI--Community-?node-id=0-1&p=f)
 ![Image](https://github.com/user-attachments/assets/3dbaabb1-d75b-431f-bd48-5bdfc2013f99)
 ![Image](https://github.com/user-attachments/assets/88234b55-e8b9-4654-a9c7-152240c129f1)
 ![Image](https://github.com/user-attachments/assets/6aea6ef1-dcfe-40d4-b715-cca10deeeb9b)
@@ -169,7 +174,6 @@
 ![Image](https://github.com/user-attachments/assets/42454b83-6a64-4102-b5a3-7a2ed0a5c1e3)
 ![Image](https://github.com/user-attachments/assets/756fd06a-28a6-4569-9573-8cda62204743)
 
-:link: [화면설계서 링크](https://www.figma.com/design/PkABMn1ZnHp2tuFcA8yRcM/-%EA%B8%B0%ED%9A%8D-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF-UX-UI-Wireframe-Template-KOR--UX-UI--Community-?node-id=0-1&p=f)
----
+
 
 
