@@ -86,7 +86,7 @@
 
 ---
 
-## [5. 시스템 아키텍처 링크 바로가기 :black_nib:](https://link.excalidraw.com/readonly/ywFsggawosP51BAADxk5)
+## [5. 시스템 아키텍처 링크 바로가기 :black_nib:](https://excalidraw.com/#json=C8qS9rMC3yJfk6PkWXjiB,6J5hmbwEyuolvd45EEKscg)
 
 **구성도**
 **구성도**<br>
